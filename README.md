@@ -10,12 +10,12 @@ Mongoose (CRUD logging via model plugin) and Express (access logging via route m
 
 Use NPM to install the module, like so:
 
-    npm install audit-log
+    npm install t1t-pg-audit-log
 
 **1. Include the library:**
 
 ```javascript
-var auditLog = require('audit-log');
+var auditLog = require('t1t-pg-audit-log');
 ```
 
 **2. Add a Transport System:**
@@ -103,6 +103,7 @@ HumanSchema.plugin(pluginFn.handler); // .handler is the pluggable function for 
 
 # Roadmap
 
+Following roadmap of 'audit-log'
 + Adding a Redis Transport
 + Log archival and pruning
 + Socket-driven live log monitoring API
@@ -112,7 +113,7 @@ HumanSchema.plugin(pluginFn.handler); // .handler is the pluggable function for 
 
 (The MIT License)
 
-Copyright (c) 2013 Craig Coffman <craig@imakewidgets.com>
+Copyright (c) 2016 Trust1Team <michallis@trust1team.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
